@@ -1,0 +1,71 @@
+
+/*REGRA PARA TELAS DE NO MÁXIMO 800PX*/
+
+@media only screen and (max-width: 800px){
+    #cabecalho .conteiner{
+        display: block;
+        padding: 15px 0;
+        position: relative;
+    }
+   
+    #cabecalho #logo{
+        display: block;
+        margin: 0 auto;
+    }
+
+    #cabecalho #slider{
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 15px;
+    }
+
+    #cabecalho #menu{
+        display: none;
+        margin-top: 15px;
+    }
+
+    #cabecalho #menu ul li a{
+        text-align: center;
+        border-bottom: 1px solid #666;
+    }
+
+    #cabecalho ul li:first-child a{
+        border-top: 1px solid #666;
+    }
+
+    #cabecalho #menu ul li{
+        display: block;
+    }
+
+    #modelos .conteiner{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+/*REGRA PARA TELAS DE NO MÁXIMO 360PX*/
+
+@media only screen and (max-width: 360px){
+    #modelos .container{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .titulo-secao{
+        font-size: 200%;
+    }
+
+    #modelos img{
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 20px;
+        max-width: 50%;
+    }
+
+    #modelos h3{
+        text-align: center;
+    }
+    
+    #modelos .comprar{
+        margin: 0 auto;
+    }
+}

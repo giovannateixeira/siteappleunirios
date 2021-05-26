@@ -1,0 +1,86 @@
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Site Apple</title>
+        <link rel="stylesheet" href="../css/slyle.css">
+
+        <link rel="stylesheet" href="../bxslider/jquery.bxslider.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="../bxslider/jquery.bxslider.js"></script>
+
+        <script>
+            $(document).ready(function(){
+            $('#slider').bxSlider({
+                auto: true,
+                /* speed deixa mais rapido*/
+
+                /* tirou as setas*/
+                controls: false,
+            
+
+
+            });
+            });
+        </script>
+        
+        </head>
+        <body>
+    
+    </head>
+    <body>
+        <header id="cabecalho">
+    <div class="conteiner">
+            <img src="../img/logo_apple_branco.png" alt="Logo Apple" id="logo">
+
+            <nav id="menu">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="quem_somos.html">Quem Somos</a></li>
+                    <li><a href="videos.html">Videos</a></li>
+                    <li><a href="#">Produtos</a></li>
+                    <li><a href="#">Lojas</a></li>
+                    <li><a href="#">Fale Conosco</a></li>
+                </ul>
+            </nav>
+        </div>
+        </header>
+
+        <div id="banner">
+            <div class="conteiner">
+            <ul id="slider">
+                <li><img src="../img/banner_01.jpg" alt="Banner Iphone 12"></li>
+                <li><img src="../img/banner_02.jpg" alt="Banner Iphone 12 PRO"></li>
+                <li><img src="../img/banner_03.jpg" alt="Banner Iphone 12 Roxo"></li>
+            </ul>
+            </div> 
+        </div>
+
+        <section id="videos">
+            <h3 class="titulo">Videos</h3>
+            <div class="conteiner" class="videos">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/4X_IW3kqr3k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/wGixQPuG1GY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/aOq49euWnIo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/65JrtwtTOdc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/WH_NEGXEbBE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/yL2xVs6uI0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      
+            </div>
+        </section>
+
+        <footer id="rodape">
+            <div class="conteiner">
+        
+            <span>Site construido por Giovanna Teixeira como aprendizado prático de HTML e CSS</span>
+            </div>
+        </footer>
+    </body>
+    </html>

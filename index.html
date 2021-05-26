@@ -1,0 +1,121 @@
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Site Apple</title>
+        <link rel="stylesheet" href="css/slyle.css">
+        <link rel="stylesheet" href="css/mobile.css">
+
+        <link rel="stylesheet" href="bxslider/jquery.bxslider.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="bxslider/jquery.bxslider.js"></script>
+
+        <script>
+            $(document).ready(function(){
+            $('#slider').bxSlider({
+                auto: true,
+                /* speed deixa mais rapido*/
+
+                /* tirou as setas*/
+                controls: false,
+            
+
+
+            });
+            });
+        </script>
+        
+        </head>
+        <body>
+    
+    </head>
+    <body>
+        <header id="cabecalho">
+    <div class="conteiner">
+            <img src="img/logo_apple_branco.png" alt="Logo Apple" id="logo">
+
+            <nav id="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="internas/quem_somos.html">Quem Somos</a></li>
+                    <li><a href="internas/videos.html">Videos</a></li>
+                    <li><a href="internas/produto.html">Produtos</a></li>
+                    <li><a href="internas/mapa.html">Lojas</a></li>
+                    <li><a href="#">Fale Conosco</a></li>
+                </ul>
+            </nav>
+        </div>
+        </header>
+
+        <div id="banner">
+            <div class="conteiner">
+            <ul id="slider">
+                <li><img src="img/banner_01.jpg" alt="Banner Iphone 12"></li>
+                <li><img src="img/banner_02.jpg" alt="Banner Iphone 12 PRO"></li>
+                <li><img src="img/banner_03.jpg" alt="Banner Iphone 12 Roxo"></li>
+            </ul>
+            </div> 
+        </div>
+
+        <section id="modelos">
+            <h2 class="titulo">Qual o IPhone Ideal Para Você?</h2>
+            <div class="conteiner">
+               
+            <div>
+                <img src="img/iphone_12.jpg" alt="12">
+                <h3>IPhone 12</h3>
+                <ul>
+                    <li>Preto, branco, (PRODUCT)RED, verde, azul e roxo</li>
+                    <li>  Tela Super Retina XDR de 6,1 polegadas com HDR e True Tone1</li>
+                    <li> Parte da frente em Ceramic Shield, parte de trás em vidro e estrutura de alumínio</li>
+                        
+                </ul>
+                <a class="compra" href="#">Comprar</a>
+            </div>
+            <div>
+                <img src="img/iphone_11.jpg" alt="12">
+                <h3>IPhone 11</h3>
+                <ul>
+                    <li>Preto, branco, roxo, verde, amarelo e (PRODUCT)RED</li>
+                        <li>Tela Liquid Retina HD de 6,1 polegadas com True Tone</li>
+                            <li>  Estrutura de vidro e alumínio</li>
+                        
+                </ul>
+                <a class="compra"href="#">Comprar</a>
+            </div>
+            <div>
+                <img src="img/iphone_xr.jpg" alt="12">
+                <h3>IPhone XR</h3>
+                <ul>
+                    <li>Preto, branco, azul, coral, amarelo e (PRODUCT)RED</li>
+                        <li>Tela Liquid Retina HD de 6,1 polegadas com True Tone</li>
+                            <li>  Estrutura de vidro e alumínio</li>
+                        
+                </ul>
+                <a class="compra" href="#">Comprar</a>
+            </div>
+            <div>
+                <img src="img/iphone_se.jpg" alt="12">
+                <h3>IPhone SE (2º geração)</h3>
+                <ul>
+                    <li>Preto, branco e (PRODUCT)RED</li>
+                        <li>Tela Retina HD de 4,7 polegadas com True Tone</li>
+                            <li>  Estrutura de vidro e alumínio</li>
+                        
+                </ul>
+                <a class="compra"href="#">Comprar</a>
+            </div>
+        </div>
+
+</section>
+
+        <footer id="rodape">
+            <div class="conteiner">
+        
+            <span>Site construido por Giovanna Teixeira como aprendizado prático de HTML e CSS</span>
+            </div>
+        </footer>
+    </body>
+    </html>
